@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Raleway, Cormorant_Garamond, Noto_Serif_JP } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const raleway = Raleway({
@@ -46,7 +47,10 @@ export default function RootLayout({
       lang="en"
       className={`${raleway.variable} ${cormorant.variable} ${notoSerifJP.variable}`}
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
