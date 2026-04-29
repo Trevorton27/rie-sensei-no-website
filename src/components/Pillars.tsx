@@ -1,41 +1,41 @@
 const pillars = [
   {
-    kana: "文",
+    kana: "仕",
     number: "01",
-    title: "Writing",
-    subtitle: "言葉の力",
+    title: "Online Business Support",
+    subtitle: "事業の土台づくり",
     description:
-      "Essays, criticism, and narrative nonfiction that probe the edges of culture, identity, and the examined life. Words chosen like flowers — each one placed for its weight, its silence, and its color.",
-    accent: "oklch(0.78 0.075 12 / 0.7)",
-    accentLight: "oklch(0.78 0.075 12 / 0.08)",
-  },
-  {
-    kana: "学",
-    number: "02",
-    title: "Education",
-    subtitle: "知識の庭",
-    description:
-      "Curriculum design, mentorship, and teaching at the intersection of liberal arts and applied knowledge. Rie believes that the deepest education cultivates a way of seeing, not merely a set of skills.",
+      "Executive support and back-office operations for small businesses. Task management, team building, promotion strategy, and workflow design — all in one place.",
     accent: "oklch(0.72 0.095 78 / 0.7)",
     accentLight: "oklch(0.72 0.095 78 / 0.07)",
   },
   {
-    kana: "業",
-    number: "03",
-    title: "Business",
-    subtitle: "美の商い",
+    kana: "導",
+    number: "02",
+    title: "Coaching & Programs",
+    subtitle: "方向性を見つける",
     description:
-      "Strategy and venture-building rooted in culture. Rie works with founders and institutions who understand that lasting enterprises are shaped by values — and that aesthetics are never merely decorative.",
+      "For those who don't know what they want yet. Coaching to find your direction, combined with practical training to start earning — at the same time.",
+    accent: "oklch(0.78 0.075 12 / 0.7)",
+    accentLight: "oklch(0.78 0.075 12 / 0.08)",
+  },
+  {
+    kana: "繋",
+    number: "03",
+    title: "Work & Connection",
+    subtitle: "日本とつながる",
+    description:
+      "For foreigners who want to work in Japanese, people living abroad who want to stay connected to Japan, and anyone ready to start something online. Rie helps you find the right path forward.",
     accent: "oklch(0.56 0.068 148 / 0.75)",
     accentLight: "oklch(0.56 0.068 148 / 0.07)",
   },
   {
-    kana: "芸",
+    kana: "食",
     number: "04",
-    title: "Art",
-    subtitle: "形と空間",
+    title: "Food, Culture & Travel",
+    subtitle: "日本の生きた文化",
     description:
-      "A practice informed by ikebana, calligraphy, and the Japanese sensibility of ma — the purposeful interval between. Her artistic work asks what it means to make something beautiful in a world of relentless noise.",
+      "Japanese language classes, tea ceremony, kimono — sharing Japan's living culture. Pop-up dining experiences that bridge Japanese and local cuisines around the world. Family travel designed to give children a wider view of what's possible.",
     accent: "oklch(0.58 0.080 280 / 0.65)",
     accentLight: "oklch(0.58 0.080 280 / 0.06)",
   },
@@ -55,7 +55,7 @@ export default function Pillars() {
               className="font-serif text-4xl md:text-5xl leading-tight tracking-tight"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
             >
-              Four Domains
+              Four Pillars
             </h2>
           </div>
           <span

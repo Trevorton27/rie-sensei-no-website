@@ -26,13 +26,13 @@ const notoSerifJP = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Rie Takagi — Writer · Educator · Artist",
+  title: "Rie Takagi — Online Business Partner · Educator · Japan Culture & Travel",
   description:
-    "Rie Takagi is a writer, educator, and artist devoted to beauty, knowledge, and the art of meaningful connection.",
+    "Rie Takagi helps people find their own way to work and live — in Japan and beyond. Online business support, coaching, and Japanese culture.",
   openGraph: {
-    title: "Rie Takagi — Writer · Educator · Artist",
+    title: "Rie Takagi — Online Business Partner · Educator · Japan Culture & Travel",
     description:
-      "Devoted to beauty, knowledge, and the art of meaningful connection.",
+      "Helping people find their own way to work and live — in Japan and beyond.",
     type: "website",
   },
 };

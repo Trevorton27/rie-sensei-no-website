@@ -6,6 +6,7 @@ const links = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#pillars" },
   { label: "Philosophy", href: "#philosophy" },
+  { label: "For foreign nationals", href: "/for-foreigners" },
   { label: "Connect", href: "#contact" },
 ];
 

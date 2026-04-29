@@ -51,15 +51,15 @@ export default function Philosophy() {
             >
               &ldquo;
             </span>
-            The goal is not perfection. The goal is{" "}
+            I don&apos;t tell people what to do. I help create the{" "}
             <em
               className="not-italic"
               style={{ color: "oklch(0.78 0.075 12 / 0.9)" }}
             >
-              presence
+              environment
             </em>{" "}
-            — a quality of attention so complete that the work becomes{" "}
-            <em className="italic">inevitable.</em>
+            where they{" "}
+            <em className="italic">discover it themselves.</em>
           </blockquote>
 
           <div className="mt-10 flex items-center justify-center gap-4">

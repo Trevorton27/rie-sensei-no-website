@@ -1,9 +1,9 @@
 const qualities = [
-  "Curious and deeply read",
-  "Committed to craft over convenience",
-  "Building something that outlasts a trend",
-  "Interested in beauty as a form of intelligence",
-  "Willing to think slowly in a fast world",
+  "A foreigner in Japan who wants to work or build something using Japanese",
+  "Living abroad, but wanting to connect with Japanese clients or culture",
+  "Someone who wants to start something, but doesn't know where to begin",
+  "A parent who wants to give your children a wider view of the world",
+  "Someone drawn to Japanese food, language, and ways of living",
 ];
 
 export default function Collaboration() {
@@ -14,33 +14,32 @@ export default function Collaboration() {
           {/* Left text */}
           <div className="md:col-span-6">
             <span className="text-[10px] tracking-[0.35em] uppercase text-muted-foreground block mb-4">
-              Collaboration
+              Who Rie Works With
             </span>
             <h2
               className="font-serif text-4xl md:text-5xl leading-tight tracking-tight mb-8"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
             >
-              The people Rie works{" "}
+              You might be{" "}
               <em
                 className="not-italic"
                 style={{ color: "oklch(0.56 0.068 148 / 0.9)" }}
               >
-                best with.
+                someone like this.
               </em>
             </h2>
 
             <p className="text-[15px] leading-[1.85] text-muted-foreground mb-8 max-w-md">
-              Rie is selective about her collaborations — not from elitism, but
-              from a conviction that the best work emerges from genuine
-              alignment. She is drawn to people who share her values, even if
-              their domain is entirely different from hers.
+              Rie works with people at all kinds of starting points — not just
+              those who already have a clear plan. What matters most is the
+              willingness to take the next step.
             </p>
 
             <a
               href="#contact"
               className="inline-flex items-center gap-3 text-xs tracking-[0.2em] uppercase border border-foreground/25 px-8 py-4 hover:border-foreground/60 transition-colors duration-300 group"
             >
-              Begin a Conversation
+              Get in Touch
               <span className="block w-4 h-px bg-current opacity-60 group-hover:w-7 transition-all duration-300" />
             </a>
           </div>
@@ -48,7 +47,7 @@ export default function Collaboration() {
           {/* Right — qualities list */}
           <div className="md:col-span-6 md:pl-8">
             <p className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground mb-6">
-              You are probably someone who is —
+              You might be —
             </p>
             <ul className="space-y-0">
               {qualities.map((q, i) => (
@@ -61,8 +60,8 @@ export default function Collaboration() {
                 className="font-serif italic text-xl leading-relaxed text-muted-foreground"
                 style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
               >
-                &ldquo;I am not looking for the most impressive person in the
-                room. I am looking for the most awake.&rdquo;
+                &ldquo;I don&apos;t tell people what to do. I help create the
+                environment where they discover it themselves.&rdquo;
               </p>
             </div>
           </div>

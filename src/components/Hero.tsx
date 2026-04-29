@@ -86,7 +86,7 @@ export default function Hero() {
                 }}
               />
               <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground">
-                Writer · Educator · Artist
+                Online Business Partner · Educator · Japan Culture &amp; Travel
               </p>
             </div>
 
@@ -94,9 +94,8 @@ export default function Hero() {
               className="text-lg md:text-xl leading-relaxed text-muted-foreground max-w-md mb-12"
               style={{ fontWeight: 300 }}
             >
-              Devoted to the intersection of beauty and intellect — crafting
-              words, cultivating minds, and building ventures with those who
-              believe that elegance and excellence are inseparable.
+              Helping people find their own way to work and live
+              — in Japan and beyond.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">

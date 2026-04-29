@@ -29,34 +29,45 @@ export default function About() {
               className="font-serif text-4xl md:text-5xl leading-[1.2] tracking-tight mb-8"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
             >
-              A life lived at the{" "}
+              22 years of experience,{" "}
               <em
                 className="not-italic"
                 style={{ color: "oklch(0.78 0.075 12 / 0.9)" }}
               >
-                intersection
-              </em>{" "}
-              of beauty and purpose.
+                now on your side.
+              </em>
             </h2>
 
             <div className="space-y-5 text-[15px] leading-[1.85] text-muted-foreground">
               <p>
-                Born in Kyoto and shaped by a world that crosses cultural
-                boundaries, Rie Takagi is a writer, educator, and entrepreneur
-                who believes that the pursuit of beauty is inseparable from the
-                pursuit of meaning.
+                Rie Takagi spent 22 years in corporate life, including over 10
+                years as an executive secretary at a global corporation of
+                40,000 people.
               </p>
               <p>
-                Her education spans literature, philosophy, and business — a
-                triad she inhabits not in sequence but simultaneously, allowing
-                each discipline to inform and enrich the others. She writes with
-                the precision of a scholar and the sensibility of a poet.
+                Today she runs Bloom Link — supporting small businesses with
+                online operations, and helping individuals build a working life
+                that truly fits them.
               </p>
               <p>
-                Outside of her creative practice, Rie advises organizations and
-                builds ventures that place culture and craft at their core. She
-                is particularly drawn to people and projects that refuse to
-                choose between intellectual rigor and aesthetic excellence.
+                She is a Japanese language educator who believes that language
+                carries culture. She wears kimono, practices tea ceremony, and
+                shares the depth of Japanese tradition with those around her.
+              </p>
+              <p>
+                She has also taken action beyond borders: delivering stationery
+                donations directly to children in the Philippines, and hosting a
+                pop-up restaurant in Chiang Mai — fusing Japanese ingredients
+                with local Thai cuisine.
+              </p>
+              <p>
+                She travels with her children to expose them to different
+                cultures, believing that a wider view of the world opens up a
+                wider sense of what&apos;s possible in life.
+              </p>
+              <p>
+                Her vision: to connect Japan and the world through food, travel,
+                and meaningful work.
               </p>
             </div>
 
@@ -65,8 +76,8 @@ export default function About() {
                 className="font-serif italic text-xl leading-relaxed"
                 style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
               >
-                &ldquo;In ikebana, emptiness is not absence — it is breath. I
-                carry that principle into everything I make.&rdquo;
+                &ldquo;When the environment is right, people naturally begin to
+                move.&rdquo;
               </p>
             </div>
           </div>
@@ -77,9 +88,7 @@ export default function About() {
               <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground/60">
                 Based in
               </span>
-              <span className="text-sm text-muted-foreground">
-                Tokyo · New York
-              </span>
+              <span className="text-sm text-muted-foreground">Japan</span>
             </div>
             <div className="flex flex-col items-end gap-2 text-right">
               <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground/60">
@@ -89,12 +98,12 @@ export default function About() {
             </div>
             <div className="flex flex-col items-end gap-2 text-right">
               <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground/60">
-                Discipline
+                Work
               </span>
               <span className="text-sm text-muted-foreground">
-                Writing · Business
+                Business Support
                 <br />
-                Education · Art
+                Coaching · Culture
               </span>
             </div>
           </div>

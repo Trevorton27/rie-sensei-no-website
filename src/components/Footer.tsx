@@ -28,7 +28,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[10px] tracking-[0.25em] uppercase text-muted-foreground/60">
-              Writer · Educator · Artist
+              Online Business Partner · Educator · Japan Culture &amp; Travel
             </p>
           </div>
 
